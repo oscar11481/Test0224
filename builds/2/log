@@ -1,0 +1,40 @@
+¥Ñ¨Ï¥ÎªÌ [8mha:////4AZZgJzCJ0QqRI9HD52KU6XtnyvHdSA8mO8BThORtHB3AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL94sRcALrcsYm+AAAA[0msam ±Ò°Ê
+«Ø¸m¤¤ ¤u§@°Ï C:\Users\user\.jenkins\workspace\Test0224
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/oscar1481/Test0224.git # timeout=10
+Fetching upstream changes from https://github.com/oscar1481/Test0224.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress https://github.com/oscar1481/Test0224.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 7e0581585afb58eb4f0400190009ac393da3cb90 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 7e0581585afb58eb4f0400190009ac393da3cb90
+ > git.exe rev-list 7e0581585afb58eb4f0400190009ac393da3cb90 # timeout=10
+[Test0224] $ cmd.exe /C '""C:\Program Files\maven\apache-maven-3.3.9\bin\mvn.cmd"' -f HelloMaven/pom.xml clean compile && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building HelloMaven 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4BJA1mR4vs5BVIMPhymDJd8JbHzFGodEFxNlUkvaRDUjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ HelloMaven ---
+[INFO] Deleting C:\Users\user\.jenkins\workspace\Test0224\HelloMaven\target
+[INFO] 
+[8mha:////4BJA1mR4vs5BVIMPhymDJd8JbHzFGodEFxNlUkvaRDUjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ HelloMaven ---
+[8mha:////4FG7iTO7E39ubJVBdsosqk5EAuSDLEBQDmGOz4kJfVOQAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\user\.jenkins\workspace\Test0224\HelloMaven\src\main\resources
+[INFO] 
+[8mha:////4BJA1mR4vs5BVIMPhymDJd8JbHzFGodEFxNlUkvaRDUjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ HelloMaven ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4FG7iTO7E39ubJVBdsosqk5EAuSDLEBQDmGOz4kJfVOQAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] File encoding has not been set, using platform encoding MS950, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to C:\Users\user\.jenkins\workspace\Test0224\HelloMaven\target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.350 s
+[INFO] Finished at: 2017-02-25T14:51:27+08:00
+[INFO] Final Memory: 12M/34M
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS
